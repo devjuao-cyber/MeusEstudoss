@@ -127,6 +127,10 @@ header h1{
         
     }
     .card{
+        height: 400px;
         margin-bottom: 30px;
+    }
+    .inputf{
+        width: 300px;
     }
 }
