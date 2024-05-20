@@ -69,7 +69,7 @@ header h1{
     right: 2%;
 
 }
-
+/* utilizando grid */
 .cartao{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -119,8 +119,12 @@ header h1{
     text-align: justify;
     padding: 5px;
 }
-
-  
+/* efeito de animação */
+.cartao:has(.card:hover) .card:not(:hover) {
+    opacity: .6;
+    scale: .98;
+    transition: 0.2s;
+  }
 @media screen and (max-width: 800px ) {
     .cartao{
         display: block;
