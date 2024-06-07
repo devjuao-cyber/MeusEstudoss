@@ -122,7 +122,7 @@ header h1{
 /* efeito de animação */
 .cartao:has(.card:hover) .card:not(:hover) {
     opacity: .6;
-    scale: .98;
+    scale: 1;/* mudar isso aqui para testar colocar menor  */
     transition: 0.2s;
   }
 @media screen and (max-width: 800px ) {
